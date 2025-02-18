@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    max-width: 100vw;
+    background-color: rgb(22,22,22);
+    color: rgb(133,126,110); 
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2{
+    color: rgb(246, 246, 246);
+    /* Couleur titre */
+    font-weight: 900;
+}
+
+header nav h2{
+    font-size: .7rem;
+    padding: 7px;
+}
+header nav h2{
+    color: rgb(133,126,110); 
+    font-size: .7rem;
+    margin-bottom: 25px;
+    /* Couleur texte */
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(28, 28, 28);
+    width: 17vw;
+}
+
+nav{
+    /* border: 1px solid white; */
+    width: 80%;
+    height: 100vh;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(133,126,110);
+    padding: 7px;
+}
+
+.profil{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    font-size: .7rem;
+    margin-top: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+main div{
+    width: 80%;
+    margin-left: 15%;
+
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 16vh;
+    margin-bottom: 50px;
+    margin-left: auto;
+}
+
+.introduction h3, .introduction h2{
+    text-align: right;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    
+}
+
+.introduction p{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin: 25px 0;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+h3{
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.projets{
+    display: flex;
+    margin-top: 50px;
+}
+.card{
+    text-align: center;
+    /* border: 1px solid white; */
+    width: 14vw;
+    height: 50vh;
+    margin: 40px;
+    overflow: hidden;
+    border-radius: 3%;
+    /* padding: 5px; */
+    background-color: rgba(28,28,28,.5);
+    transition: transform 400ms ease-in-out;
+}
+
+.card p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 32vh;
+    /* border: 1px solid white; */
+    
+}
+
+.card img{
+    /* margin-bottom: 85px; */
+    width: 100%;
+    height: 160px;
+    border-radius: 3%;
+}
+
+.card:hover{
+    transform: translateY(-15px) scale(1.1);
+}
+
+.card:nth-child(1){
+    margin-top: 75px;
+}
+
+.card:nth-child(2){
+    margin-top: 125px;
+}
+
+.desc{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 0;
+}
+
+.btnDescription{
+    border-radius: 10%;
+    border: 2px solid rgba(255, 255, 255,.4);
+    background-color: rgba(60,60,60,.5);
+    width: 100px;
+    cursor: pointer;
+    padding: 8px;
+    margin: 5px;
+    transition: transform 300ms ease-in-out;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+.btnDescription a{
+    padding: 8px;
+    color: rgb(246, 246, 246);
+    text-align: center;
+    text-decoration: none;
+}
+
+.btnDescription:hover{
+    background-color: rgba(28,28,28,.8);
+    transform: scale(1.1);
+}
+
+.git a{
+    color: rgb(246, 246, 246);
+    text-decoration: none;
+    padding: 7px;
+    
+}

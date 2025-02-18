@@ -1,0 +1,19 @@
+main{
+    width: 100%;
+    margin-left: 0;
+}
+main div{
+    margin-left: 0%;
+
+}
+.introduction p{
+    font-size: 1.2rem;
+    display: flex;
+    margin-top: 90px;
+    width: 75%;
+    text-align: justify;
+    /* border: 1px solid white; */
+}
+.intro{
+    margin-top: -5vh;
+}
