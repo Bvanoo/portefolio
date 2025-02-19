@@ -1,0 +1,21 @@
+.intro h2{
+    margin-right: 300px;
+}
+
+.card:nth-child(1){
+    margin-top: 0px;
+}
+
+.card:nth-child(2){
+    margin-top: 0px;
+}
+
+.card:nth-child(3){
+    margin-top: 0px;
+}
+
+section.projets{
+    display: flex;
+    flex-flow: wrap row;
+    width: 70%;
+}
