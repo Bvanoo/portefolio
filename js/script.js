@@ -12,12 +12,14 @@ if (myMonth>= month && myDay>day){
 }else{
     age = year-myYear;
 }
-profil.innerHTML = `J'ai ${age} ans, je vis a ${ville}. Je suis une personne dynamique et passionnée par le monde du développement web. Je suis proactif et toujours prêt à relever de nouveaux défis. Depuis longtemps, le développement web est un secteur qui me passionne et j'ai toujours rêvé d'en faire mon métier. C'est un domaine super dynamique, il y a toujours des nouveautés ! <br><br>
+profil.innerHTML = `J'ai ${age} ans, je vis a ${ville}. Je suis passionné par le développement web depuis un moment déjà. J'adore le fait que ce domaine soit en constante évolution, il y a toujours de nouvelles choses à apprendre et de nouveaux défis à relever. <br><br>
 
-J'adore les défis qui font appel à la logique et à la résolution de problèmes, et les jeux vidéo ont été pour moi un véritable terrain d'entraînement. Ils m'ont appris à élaborer des stratégies, à anticiper les actions de l'adversaire et à penser de manière logique pour atteindre mes objectifs. <br><br>
+Je suis quelqu'un de proactif, j'aime trouver des solutions et je suis toujours prêt à me lancer dans de nouveaux projets.  J'ai un esprit logique et j'aime résoudre des problèmes, un peu comme dans les jeux vidéo auxquels j'ai beaucoup joué.  Ils m'ont appris à être stratégique, à anticiper et à prendre des décisions rapidement.<br><br>
 
-Je suis actuellement inscrit à une formation préparatoire pour intégrer une formation qualifiante en développement web. Cette formation me permet d'acquérir les bases nécessaires et de me préparer efficacement aux exigences de la formation qualifiante. Je suis assidu et motivé dans cette démarche et je suis convaincu d'être prêt à relever les défis de la formation qualifiante. <br><br>
+En ce moment, je suis en train de me former pour pouvoir suivre une formation qualifiante en développement web.  Je suis vraiment motivé et je travaille dur pour acquérir les bases nécessaires et être prêt pour la suite.<br><br>
 
-Je suis convaincu que cette formation qualifiante en développement web est l'opportunité idéale pour acquérir les compétences techniques et les connaissances nécessaires pour concrétiser mon projet professionnel. Je suis déterminé à m'investir pleinement dans cette formation et à contribuer activement à la dynamique du groupe.
+Je suis convaincu que cette formation est une opportunité incroyable pour moi de développer mes compétences et de me lancer dans le monde du développement web. J'ai hâte de commencer, de rencontrer d'autres passionnés et d'apprendre ensemble
+
+
 
 `;

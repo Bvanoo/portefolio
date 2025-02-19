@@ -4,23 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Premiere calculatrice réalisée pendant mon apprentissage du Javascript.">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/calc.css">
     <title>Calculatrice en Javascript</title>
 </head>
 <body>
-    <h1>Calculatrice simple.</h1>
+
+    <header>
+    
+        <nav>
+    
+            <div class="profil">
+                <img src="#" alt="#">
+                <div>
+                    <h1>Benjamin Van Oostvedt</h1>
+                    <h2>Web Dev. Junior</h2>
+                </div>
+            </div>
+            
+            <ul>
+                <li><a href="index.html">Découvrir</a></li>
+                <li><a href="#">Projets</a></li>
+                <li><a href="aProposDeMoi.html">A propos de moi</a></li>
+            </ul>
+            <h2>Ressources</h2>
+            <ul>
+                <li><a href="#">Actualitées</a></li>
+                <li><a href="#">Stack</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        
+        </nav>
+    
+    </header>
+
     <section>
-        <h2>Exercice bonus : Calculatrice. </h2>
+        <h2>Calculatrice simple.</h2>
+
         <div class="histo">
 
-            <aside>
-                <p>Calcul effectuer : </p>
-                <p id="repCalc" value="touche(inputUser)"></p>
-            </aside>
             <div class="calculatrice">
                 
                 <div class="calc">
-                <div class="supp">   
+                    <div class="supp">   
                     <div class="screen">    
                         <p class="calcScreen" id="calcScreen">ex : 4+4=8</p>
                     </div>
@@ -65,9 +91,12 @@
                 </div>
             </div>
         </div>
+        <aside>
+            <p>Calcul effectuer : </p>
+            <p id="repCalc" value="touche(inputUser)"></p>
+        </aside>
     </div>
     </section>
-    <button onclick ="getRandomIntInclusive">test random</button>
     <script src="js/calc.js"></script>
 </body>
 </html>

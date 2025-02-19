@@ -76,8 +76,10 @@ main{
 
 main div{
     width: 80%;
-    margin-left: 15%;
+}
 
+section{
+    margin-left: 15%;
 }
 
 .introduction{
@@ -109,6 +111,10 @@ main div{
     justify-content: flex-end;
 }
 
+h2{
+    margin-left: 150px;
+}
+
 h3{
     font-size: 1rem;
     font-weight: 900;
@@ -117,7 +123,14 @@ h3{
 .projets{
     display: flex;
     margin-top: 50px;
+    
 }
+
+.projetJs{
+    display: flex;
+    margin-top: 50px;
+}
+
 .card{
     text-align: center;
     /* border: 1px solid white; */
@@ -137,6 +150,8 @@ h3{
     align-items: center;
     justify-content: center;
     min-height: 32vh;
+    text-align: left;
+    padding: 15px;
     /* border: 1px solid white; */
     
 }
@@ -153,11 +168,14 @@ h3{
 }
 
 .card:nth-child(1){
-    margin-top: 75px;
+    margin-top: 100px;
 }
 
 .card:nth-child(2){
-    margin-top: 125px;
+    margin-top: 40px;
+}
+.card:nth-child(3){
+    margin-top: 140px;
 }
 
 .desc{
@@ -192,9 +210,44 @@ h3{
     transform: scale(1.1);
 }
 
-.git a{
-    color: rgb(246, 246, 246);
-    text-decoration: none;
-    padding: 7px;
+.stacks article{
+    display: flex;
+    flex-flow: wrap column;
+}
+
+.bloc{
+    display: flex;
     
+}
+
+.stacks h2{
+    margin-bottom: 40px;
+}
+
+.miniCard{
+    width: 6vw;
+    height: 20vh;
+    border-radius: 3%;
+    margin: 25px;
+    background-color: rgba(28,28,28,.5);
+    transition: transform 400ms ease-in-out;
+}
+
+.miniCard:hover{
+    transform: translateY(-5px) scale(1.1);
+}
+
+.miniCard svg{
+    width: 80px;
+    height: 80px;
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(133,126,110);
+    cursor: pointer;
+}
+
+quote{
+    margin-top: 60px;
 }

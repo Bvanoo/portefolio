@@ -10,10 +10,16 @@ main div{
     font-size: 1.2rem;
     display: flex;
     margin-top: 90px;
-    width: 75%;
+    width: 60%;
     text-align: justify;
     /* border: 1px solid white; */
 }
+
+.introduction{
+    margin-left: 60px;
+    width: 100%;
+}
+
 .intro{
     margin-top: -5vh;
 }
