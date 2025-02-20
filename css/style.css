@@ -19,10 +19,16 @@ h1, h2{
     font-weight: 900;
 }
 
+.profilName{
+    transition: .7s ease-in-out;
+ 
+}
+
 .sub{
     margin-left: 3px;
     font-size: .7rem;
     color: #857e6e;
+    transition: .7s ease-in-out;
 }
 .subs{
     color: #857e6e;
@@ -103,6 +109,7 @@ nav a{
     border-radius: 100%;
     width: 75px;
     height: 75px;
+    transition: .7s ease-in-out;
 }
 
 main{
