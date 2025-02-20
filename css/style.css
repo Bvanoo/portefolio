@@ -20,6 +20,7 @@ h1, h2{
 }
 
 .sub{
+    margin-left: 3px;
     font-size: .7rem;
     color: #857e6e;
 }
@@ -47,18 +48,31 @@ header{
     background-color: rgb(28, 28, 28);
     width: 270px;    
     box-shadow: .5rem 0 2rem #000;
+    transition: .7s ease-in-out;
 }
 
 nav{
-    /* border: 1px solid white; */
-    flex: 1;
-    margin-left: 25px;
     height: 100vh;
 }
 
-nav ul{
-    margin-top: 50px;
+.firstList{
+    position: fixed;
+    top: 400px;
+    left: 50px;
     list-style: none;
+}
+
+.sndList{
+    position: fixed;
+    top: 175px;
+    left: 50px;
+    list-style: none;
+}
+
+.navH2{
+    position: fixed;
+    top: 310px;
+    left: 50px;
 }
 
 nav ul li{
@@ -73,18 +87,22 @@ nav a{
 }
 
 .profil{
-    display: flex;
+    position: fixed;
+    top: 10px;
+    left: 100px;
     height: 10vh;
-    width: 100%;
+    width: 145px;
     font-size: .7rem;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .profil img{
+    position: fixed;
+    top: 10px;
+    left: 10px;
     border-radius: 100%;
     width: 75px;
     height: 75px;
-    margin-right: 10px;
 }
 
 main{
@@ -99,9 +117,18 @@ main div{
     margin-left: 5vw;
 }
 
-#arrow{
-    
-    transition: transform 3s ease-in-out;
+header svg{
+    position:fixed;
+    z-index: 2;
+    top: 88px;
+    left: 225px;
+    width: 90px;
+    height: 90px;
+    fill: white;
+    padding: 10px;
+    cursor: pointer;
+    transform-origin: center center;
+    transition: transform .3s ease-in-out;
 }
 
 .introduction{
@@ -147,15 +174,6 @@ h3{
     width: 98%;
 }
 
-header svg{
-    position: absolute;
-    top: 140px;
-    right: -35px;
-    cursor: pointer;
-    width: 70px;
-    height: 70px;
-    padding: 15px;
-}
 
 .projets{
     display: flex;
@@ -311,6 +329,7 @@ quote{
 }
 .lasth2{
     text-indent: 62px;
+    
 }
 
 
@@ -329,8 +348,8 @@ quote{
 
 .switch {
     position: fixed;
-    bottom: 30px;
-    left: 200px;
+    bottom: 40px;
+    left: 205px;
     width: 50px;
     height: 25px;
     margin: 0px;
