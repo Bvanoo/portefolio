@@ -1,3 +1,4 @@
+
 const profil = document.getElementById('profil');
 const year = new Date().getFullYear();
 const month = new Date().getMonth()+1;
@@ -19,7 +20,10 @@ Je suis quelqu'un de proactif, j'aime trouver des solutions et je suis toujours 
 En ce moment, je suis en train de me former pour pouvoir suivre une formation qualifiante en développement web.  Je suis vraiment motivé et je travaille dur pour acquérir les bases nécessaires et être prêt pour la suite.<br><br>
 
 Je suis convaincu que cette formation est une opportunité incroyable pour moi de développer mes compétences et de me lancer dans le monde du développement web. J'ai hâte de commencer, de rencontrer d'autres passionnés et d'apprendre ensemble
-
-
-
 `;
+
+function backdrop(){
+    const arrow = document.getElementById("arrow");
+    const header = document.querySelector("header");
+    // transform translateX(-230px);
+}

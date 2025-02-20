@@ -1,11 +1,7 @@
 main{
     width: 100%;
-    margin-left: 0;
 }
-main div{
-    margin-left: 0%;
 
-}
 .introduction p{
     font-size: 1.2rem;
     display: flex;
