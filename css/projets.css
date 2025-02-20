@@ -1,13 +1,7 @@
-.intro h2{
-    /* margin-right: 200px; */
-}
-
 section.projets{
     display: flex;
     flex-flow: wrap row;
     width: 70vw;
-    margin-left: 10vw;
-    overflow-x: none;
 }
 
 

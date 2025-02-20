@@ -45,7 +45,8 @@ header{
     flex-direction: column;
     min-height: 100vh;
     background-color: rgb(28, 28, 28);
-    width: 270px;
+    width: 270px;    
+    box-shadow: .5rem 0 2rem #000;
 }
 
 nav{
@@ -98,7 +99,9 @@ main div{
     margin-left: 5vw;
 }
 
-section{
+#arrow{
+    
+    transition: transform 3s ease-in-out;
 }
 
 .introduction{
@@ -107,7 +110,7 @@ section{
     width: 70%;
     margin-top: 14vh;
     margin-bottom: 50px;
-    margin-left: auto;
+    margin-left:13vw;
 }
 
 .introduction h3, .introduction h2{
@@ -125,7 +128,7 @@ section{
     display: flex;
     flex-direction: column;
     text-align: right;
-    margin: 25px 0;
+    margin: 25px 10px;
     width: 100%;
     justify-content: flex-end;
 }
@@ -147,10 +150,11 @@ h3{
 header svg{
     position: absolute;
     top: 140px;
-    right: -18px;
+    right: -35px;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
+    padding: 15px;
 }
 
 .projets{
@@ -175,6 +179,7 @@ header svg{
     border-radius: 1%;
     background-color: rgba(28,28,28,.5);
     transition: transform 400ms ease-in-out;
+    box-shadow: -1rem -1rem 2rem #000;
 }
 
 .card p{
@@ -203,7 +208,7 @@ header svg{
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    margin-left: 0;
+    margin-left: 15px;
 }
 
 .btnDescription{
@@ -252,12 +257,12 @@ header svg{
 
 .stacks h2{
     margin-bottom: 40px;
+    color: rgb(240,240,240);
     /* font-size: 1.2rem; */
 }
 
 .stacks .miniCard h3{
-    font-weight: 300;
-    text-decoration: underline;
+    font-weight: 500;
 }
 
 .titreMiniCard h3{
@@ -272,8 +277,7 @@ header svg{
     width: 6vw;
     height: 20vh;
     border-radius: 3%;
-    margin: 25px;
-    background-color: rgba(28,28,28,.5);
+    margin: 5px;
     transition: transform 400ms ease-in-out;
     text-align: center;
 }
@@ -303,15 +307,26 @@ quote{
 }
 
 .extra{
-    margin-left: -90px;
+    margin-left: -100px;
 }
 .lasth2{
-    text-indent: 50px;
+    text-indent: 62px;
 }
 
 
 
-/* From Uiverse.io by JkHuger */ 
+
+
+
+
+
+
+
+
+
+
+
+
 .switch {
     position: fixed;
     bottom: 30px;
@@ -481,7 +496,13 @@ quote{
     }
 }
 
-
+#profil{
+    font-size: 1.2rem;
+    display: flex;
+    margin-top: 90px;
+    width: 50%;
+    text-align: justify; 
+}
 
 
 /* .card:nth-child(1){
