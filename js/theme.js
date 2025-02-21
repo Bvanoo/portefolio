@@ -1,5 +1,8 @@
+const firstList =document.querySelector(".firstList");
 
-// MISE NE PLACE THEME SOMBRE
+const sndList =document.querySelector(".sndList");
+
+// MISE EN PLACE DU THÈME SOMBRE
 
 const applyDarkTheme = () => {
     document.body.style.backgroundColor = "#161616";
@@ -36,11 +39,11 @@ const applyDarkTheme = () => {
 });
 };
 
-// MISE EN PLACE THEME CLAIR.
+// MISE EN PLACE DU THÈME CLAIR
 
 const applyLightTheme = () => {
     document.body.style.backgroundColor = "#F3D9B0";
-    document.querySelector("header").style.backgroundColor = "#d34420";
+    document.querySelector("header").style.backgroundColor = "#cc5928";
     header.style.boxShadow = "0 -1rem 3rem #393938";
     document.querySelectorAll(".card").forEach(function(card) {
         card.style.boxShadow = "-.5rem -.5rem 3rem #393938";
@@ -73,7 +76,7 @@ const applyLightTheme = () => {
 });
 }
 
-// MISE EN PLACE DE LA CONDITION QUI CHANGE LE THEME EN FONCTION DE L'ETAT DE LA CHECKBOX
+// MISE EN PLACE DE LA CONDITION QUI CHANGE LE THÈME EN FONCTION DE L'ÉTAT DE LA CHECKBOX
 
 const swapTheme = () => {
     const btnTheme = document.getElementById("theme");
@@ -86,7 +89,8 @@ const swapTheme = () => {
     }
 };
 
-// EXPRESSION DE FONCTION QUI PERMET DE STOCKER L'ETAT DE LA CHECKBOX SI LE THEME EST DARK ELLE EST UNCHECK SINON ELLE EST CHECK
+// EXPRESSION DE FONCTION QUI PERMET DE STOCKER L'ÉTAT DE LA CHECKBOX.  
+// SI LE THÈME EST DARK, ELLE EST UNCHECKED ; SINON, ELLE EST CHECKED.
 
 const initializeTheme = () => {
     const btnTheme = document.getElementById("theme");
@@ -102,8 +106,25 @@ const initializeTheme = () => {
 
 document.getElementById("theme").addEventListener('change', swapTheme);
 
-// LORS DU CHARGEMENT DE WINDOW ON EFFECTUER AUTOMATIQUEMENT LA FONCTION QUI INITIALISE LE THEME EN FONCTION DE L'ETAT DE LA CHECKBOX SAUVEE.
+// LORS DU CHARGEMENT DE LA WINDOW, ON EXÉCUTE AUTOMATIQUEMENT LA FONCTION QUI INITIALISE LE THÈME  
+// EN FONCTION DE L'ÉTAT DE LA CHECKBOX SAUVÉE.
 
 window.onload = () => {
     initializeTheme();
+    header.style.transition ="0s ease-in-out";
+    profilName.style.transition ="0s ease-in-out";
+    sub.style.transition ="0s ease-in-out";
+    firstList.style.transition ="0s ease-in-out";
+    navH2.style.transition ="0s ease-in-out";
+    sndList.style.transition ="0s ease-in-out";
+    setTimeout(() =>{
+        header.style.transition =".7s ease-in-out";
+        profilName.style.transition =".7s ease-in-out";
+        sub.style.transition =".7s ease-in-out";
+        firstList.style.transition =".7s ease-in-out";
+        navH2.style.transition =".7s ease-in-out";
+        sndList.style.transition =".7s ease-in-out";
+
+    },100);
+
 };
