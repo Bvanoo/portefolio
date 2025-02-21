@@ -27,7 +27,7 @@ function backdrop(){
             profilName.style.opacity ="1";
             liFirst.style.opacity ="1";
             liSnd.style.opacity ="1";
-            navH2.style.opacity ="1";
+            navH2.style.opacity ="1";   
             pos=0;
         };
 }

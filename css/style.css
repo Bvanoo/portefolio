@@ -19,6 +19,10 @@ h1, h2{
     font-weight: 900;
 }
 
+h1 span{
+    display:block;
+}
+
 .profilName{
     transition: .7s ease-in-out;
 }
@@ -52,7 +56,7 @@ header{
     min-height: 100vh;
     background-color: rgb(28, 28, 28);
     width: 270px;    
-    box-shadow: .5rem 0 2rem #000;
+    /* box-shadow: .5rem 0 2rem #000; */
     transition: .7s ease-in-out;
 }
 
@@ -99,7 +103,7 @@ nav a{
     top: 10px;
     left: 100px;
     height: 10vh;
-    width: 145px;
+    width: 170px;
     font-size: .7rem;
     /* margin-top: 20px; */
 }
@@ -199,8 +203,8 @@ h3{
 }
 
 .card{
-    text-align: center;
     /* border: 1px solid white; */
+    text-align: center;
     width: 22%;
     height: 50vh;
     margin: 40px;
@@ -212,21 +216,20 @@ h3{
 }
 
 .card p{
+    /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: left;
     padding: 15px;
-    /* border: 1px solid white; */
-    
 }
 
 .card img{
+    /* border-radius: 3%; */
     margin-bottom: 35px;
     width: 100%;
     height: 160px;
-    /* border-radius: 3%; */
 }
 
 .card:hover{
@@ -243,7 +246,7 @@ h3{
 .btnDescription{
     border-radius: 5%;
     border: 2px solid rgba(255, 255, 255,.4);
-    background-color: rgba(60,60,60,.5);
+    /* background-color: rgba(60,60,60,.5); */
     width: 100px;
     cursor: pointer;
     padding: 8px;
@@ -255,7 +258,7 @@ h3{
 
 .btnDescription a{
     padding: 8px;
-    color: rgb(246, 246, 246);
+    /* color: rgb(246, 246, 246); */
     text-align: center;
     text-decoration: none;
 }
@@ -266,10 +269,10 @@ h3{
 }
 
 .stacks article{
+    /* border: 1px solid white; */
     display: flex;
     flex-flow: wrap column;
     width: 60vw;
-    /* border: 1px solid white; */
 }
 
 .bloc{
@@ -285,9 +288,9 @@ h3{
 
 
 .stacks h2{
+    /* font-size: 1.2rem; */
     margin-bottom: 40px;
     color: rgb(240,240,240);
-    /* font-size: 1.2rem; */
 }
 
 .stacks .miniCard h3{
@@ -305,7 +308,7 @@ h3{
 .miniCard{
     width: 6vw;
     height: 20vh;
-    border-radius: 3%;
+    /* border-radius: 3%; */
     margin: 5px;
     transition: transform 400ms ease-in-out;
     text-align: center;
@@ -342,13 +345,6 @@ quote{
     text-indent: 62px;
     
 }
-
-
-
-
-
-
-
 
 
 

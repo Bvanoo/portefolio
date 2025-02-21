@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/motiv.css">
+    <link rel="stylesheet" href="css/stack.css">
+
     <title>Portefolio.</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
             <div class="profil">
                 <img src="img/profil.jpg" alt="Photo de profil." id="photoProfil">
                 <div>
-                    <h1 class="profilName">Benjamin <span>Van Oostvedt</span></h1>
+                    <h1 class="profilName">Benjamin Van Oostvedt</h1>
                     <h2 class="sub subs">Web Dev. Junior</h2>
                 </div>
             </div>
@@ -51,25 +52,27 @@
         <div>
             <section class="introduction">
                 <div class="intro">
-                    <h2>Bonjour, Je m'appelle Benjamin Van Oostveldt.</h2>
-                    <h3>Web dev. Junior</h3>
+                    <h2>Me contacter.</h2>
                 </div>
             </section>
-            <p id="profilP"> </p>
-            <div>
-                <h3 class="formation">Ressources d'apprentissage</h3>
-                <img src="img/if3N.png" alt="" class="if3nLogo">
-                <img src="img/codecademy.png" alt="" class="codecLogo">
-                <img src="img/openClassRoom.png" alt="" class="openClassLogo">
-                <img src="img/w3School.png" alt="" class="w3SchoolLogo">
-            </div>
+            <section>
+                <form action="">
+                    <label for="prenom">Votre prénom :</label>
+                    <input type="text" id="prenom" placeholder="Prenom">
+                    <label for="nom">Votre nom :</label>
+                    <input type="text" id="nom" placeholder="Nom">
+                    <label for="email">Votre mail :</label>
+                    <input type="mail" id="email" placeholder="xyz@gmail.com">
+                    <label for="msg">Laissez un message :</label>
+                    <input type="text" id="msg" placeholder="Entrez votre message ici.">
+                </form>
+            </section>
         </div>
-    </main>
 
+    </main>
     <footer>
     </footer>
-<script src="js/script.js"></script>
-<script src="js/motiv.js"></script>
-<script src="js/theme.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
