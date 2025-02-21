@@ -21,7 +21,6 @@ h1, h2{
 
 .profilName{
     transition: .7s ease-in-out;
- 
 }
 
 .sub{
@@ -63,22 +62,25 @@ nav{
 
 .firstList{
     position: fixed;
-    top: 400px;
+    top: 175px;
     left: 50px;
     list-style: none;
+    transition: .7s ease-in-out;
 }
 
 .sndList{
     position: fixed;
-    top: 175px;
+    top: 400px;
     left: 50px;
     list-style: none;
+    transition: .7s ease-in-out;
 }
 
 .navH2{
     position: fixed;
     top: 310px;
     left: 50px;
+    transition: .7s ease-in-out;
 }
 
 nav ul li{
@@ -125,17 +127,19 @@ main div{
 }
 
 header svg{
+    width: 90px;
+    height: 90px;
+    fill: white;
+    z-index: 3;
+    transform-origin: center center;
+    transition: transform .3s ease-in-out;
+}
+.drop{
     position:fixed;
     z-index: 2;
     top: 88px;
     left: 225px;
-    width: 90px;
-    height: 90px;
-    fill: white;
-    padding: 10px;
     cursor: pointer;
-    transform-origin: center center;
-    transition: transform .3s ease-in-out;
 }
 
 .introduction{

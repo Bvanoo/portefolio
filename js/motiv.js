@@ -1,5 +1,5 @@
 
-const profil = document.getElementById('profil');
+const profilP = document.getElementById('profilP');
 const year = new Date().getFullYear();
 const month = new Date().getMonth()+1;
 const day = new Date().getDate();
@@ -13,7 +13,7 @@ if (myMonth>= month && myDay>day){
 }else{
     age = year-myYear;
 }
-profil.innerHTML = `J'ai ${age} ans, je vis a ${ville}. Je suis passionné par le développement web depuis un moment déjà. J'adore le fait que ce domaine soit en constante évolution, il y a toujours de nouvelles choses à apprendre et de nouveaux défis à relever. <br><br>
+profilP.innerHTML = `J'ai ${age} ans, je vis a ${ville}. Je suis passionné par le développement web depuis un moment déjà. J'adore le fait que ce domaine soit en constante évolution, il y a toujours de nouvelles choses à apprendre et de nouveaux défis à relever. <br><br>
 
 Je suis quelqu'un de proactif, j'aime trouver des solutions et je suis toujours prêt à me lancer dans de nouveaux projets.  J'ai un esprit logique et j'aime résoudre des problèmes, un peu comme dans les jeux vidéo auxquels j'ai beaucoup joué.  Ils m'ont appris à être stratégique, à anticiper et à prendre des décisions rapidement.<br><br>
 

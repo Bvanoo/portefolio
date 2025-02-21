@@ -18,28 +18,33 @@
         <nav>
     
             <div class="profil">
-                <img src="img/profil.jpg" alt="Photo de profil.">
+                <img src="img/profil.jpg" alt="Photo de profil." id="photoProfil">
                 <div>
-                    <h1>Benjamin Van Oostvedt</h1>
-                    <h2 class="sub">Web Dev. Junior</h2>
+                    <h1 class="profilName">Benjamin Van Oostvedt</h1>
+                    <h2 class="sub subs">Web Dev. Junior</h2>
                 </div>
             </div>
             
-            <ul>
+            <ul class="firstList">
                 <li><a href="index.html">Découvrir</a></li>
                 <li><a href="projets.html">Projets</a></li>
-                <li><a href="aProposDeMoi.html">A propos de moi</a></li>
+                <li><a href="aProposDeMoi.html" class="sndLi">A propos de moi</a></li>
             </ul>
-            <h2>Ressources</h2>
-            <ul>
+            <h2 class="navH2">Ressources</h2>
+            <ul class="sndList">
                 <li><a href="#">Actualitées</a></li>
                 <li><a href="stacks.html">Stack</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-        
+            
         </nav>
-         <!-- Flèche blanche -->
-         <svg viewBox="0 0 16 16" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" id="svg2" version="1.1" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <metadata id="metadata7"> <rdf:rdf> <cc:work> <dc:format>image/svg+xml</dc:format> <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type> <dc:title></dc:title> <dc:date>2021</dc:date> <dc:creator> <cc:agent> <dc:title>Timothée Giet</dc:title> </cc:agent> </dc:creator> <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"></cc:license> </cc:work> <cc:license rdf:about="http://creativecommons.org/licenses/by-sa/4.0/"> <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"></cc:permits> <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"></cc:permits> <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"></cc:requires> <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"></cc:requires> <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"></cc:permits> <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"></cc:requires> </cc:license> </rdf:rdf> </metadata> <g id="layer1" transform="rotate(45 1254.793 524.438)"> <path style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M15.464 1044.409v-1.997h-9v-9h-2v11z" id="arrow"></path> </g> </g></svg>
+        <div class="drop" onclick="backdrop()">
+            <svg fill="#000000" viewBox="0 0 1024 1024" width="50" height="50" xmlns="http://www.w3.org/2000/svg" id="arrow"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M604.7 759.2l61.8-61.8L481.1 512l185.4-185.4-61.8-61.8L357.5 512z"></path></g></svg>
+        </div>        
+        <div class="wrapper">
+            <input type="checkbox" name="checkbox" class="switch" id="theme" onchange="chgmtTheme()">
+        </div>
+        <!-- Flèche blanche -->
     </header>
     
     <main>
@@ -50,7 +55,13 @@
                     <h3>Web dev. Junior</h3>
                 </div>
             </section>
-            <p id="profil"> </p>
+            <p id="profilP"> </p>
+            <div>
+                <img src="img/if3N.png" alt="" class="if3nLogo">
+                <img src="img/codecademy.png" alt="" class="codecLogo">
+                <img src="img/openClassRoom.png" alt="" class="openClassLogo">
+                <img src="img/w3School.png" alt="" class="w3SchoolLogo">
+            </div>
         </div>
     </main>
 

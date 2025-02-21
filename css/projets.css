@@ -2,6 +2,7 @@ section.projets{
     display: flex;
     flex-flow: wrap row;
     width: 70vw;
+    margin: auto;
 }
 
 
