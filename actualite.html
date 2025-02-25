@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ce site est un portefolio des mes projets personnels réaliser pendant mon apprentissage.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/projets.css">
+    
+    <title>Portefolio.</title>
+</head>
+<body>
+    
+    <header>
+    
+        <nav>
+    
+            <div class="profil">
+                <img src="img/profil.jpg" alt="Photo de profil." id="photoProfil">
+                <div>
+                    <h1 class="profilName">Benjamin<span>Van Oostvedt</span></h1>
+                    <h2 class="sub subs">Web Dev Junior</h2>
+                </div>
+            </div>
+            
+            <ul class="firstList">
+                <li><a href="index.html">Découvrir</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="aProposDeMoi.html" class="sndLi">À propos de moi</a></li>
+            </ul>
+            <h2 class="navH2">Ressources</h2>
+            <ul class="sndList">
+                <li><a href="actualite.html">Actualités</a></li>
+                <li><a href="stacks.html">Stack</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+        </nav>
+        <div class="drop" onclick="backdrop()">
+            <svg fill="#000000" viewBox="0 0 1024 1024" width="50" height="50" xmlns="http://www.w3.org/2000/svg" id="arrow"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M604.7 759.2l61.8-61.8L481.1 512l185.4-185.4-61.8-61.8L357.5 512z"></path></g></svg>
+        </div>        
+        <div class="wrapper">
+            <input type="checkbox" name="checkbox" class="switch" id="theme" onchange="swapTheme()">
+        </div>
+        <!-- Flèche blanche -->
+    </header>
+    
+    <main>
+    <section class="introduction">
+            <div class="intro">
+            <h2>Actualités.</h2>
+            </div>
+    </section>
+    <h2>Derniers cours</h2>
+    <section class="projets">
+        <div class="card">
+            <a href="https://www.codecademy.com" target="_blank" rel="noopener noreferrer">
+                <img src="img/phpCodec.png" alt="screenshot Codecademy module php">
+                <p>Module PHP (introduction) Codecademy</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://www.codecademy.com" target="_blank" rel="noopener noreferrer">
+                <img src="img/cssCodec.png" alt="screenshot Codecademy module CSS">
+                <p>Module CSS Codecademy</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://www.codecademy.com" target="_blank" rel="noopener noreferrer">
+                <img src="img/htmlCodec.png" alt="screenshot Codecademy module HTML">
+                <p>Module HTML Codecademy</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://www.codecademy.com" target="_blank" rel="noopener noreferrer">
+                <img src="img/jsCodec.png" alt="screenshot Codecademy module JavaScript">
+                <p>Module JavaScript (bases) Codecademy</p>
+            </a>
+        </div>
+        <div class="card">
+            <a href="https://bvanoo.github.io/filrouge/" target="_blank" rel="noopener noreferrer">
+                <img src="img/screenSiteFilRouge.jpg" alt="screenshot site fil rouge if3n">
+                <p>Cours Javascript Interface 3 Namur (cours préparatoire pour une formation qualifiante)</p>
+            </a>
+        </div>
+        <div class="card">
+                <img src="img/python.png" alt="screenshot site fil rouge if3n">
+                <p>Cours d'algorithmie + bases Python Interface 3 Namur (cours préparatoire pour une formation qualifiante)</p>
+        </div>
+        <div class="card">
+                <img src="img/screenHtml.png" alt="screenshot site fil rouge if3n">
+                <p>Cours HTML/CSS Interface 3 Namur (cours préparatoire pour une formation qualifiante)</p>
+        </div>
+        <div class="card">
+                <img src="img/figma.webp" alt="screenshot site fil rouge if3n">
+                <p>Cours Figma Interface 3 Namur (cours préparatoire pour une formation qualifiante)</p>
+        </div>
+    </section>   
+    <h2>Derniers projets</h2>
+            <section class="projets">
+            
+                <div class="card">
+                    <a href="calc.html">
+                        <img src="img/screenCalc.png" alt="sreenshot Calculatrice JavaScript">
+                        <p>Calculatrice réalisée avec une boucle forEach, une expression de fonction (avec une fonction auto-invoquée) et un try-catch pour les erreurs.</p>
+                    </a>
+                </div>
+                    <div class="card">
+                        <a href="https://bvanoo.github.io/animCss/" target="_blank" rel="noopener noreferrer">
+                            <img src="img/screenAnimationCss.webp" alt="Screenshot d'une animation full css, d'une toupie en 3D">
+                            <p>Première animation un peu plus poussée réalisée en CSS et première approche du SASS.</p>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="https://bvanoo.github.io/copycatnetflix/" target="_blank" rel="noopener noreferrer">
+                            <img src="img/screenProjetNetflix.webp" alt="sreenshot projet netflix">
+                            <p>Copycat du site Netflix sur base d'une capture d'écran, réalisé uniquement en HTML/CSS. <quote>Réalisé le 16 janvier 2025</quote></p>
+                        </a>
+                    </div>
+                </section>   
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="js/theme.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

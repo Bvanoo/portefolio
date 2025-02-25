@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/stack.css">
+    <link rel="stylesheet" href="css/contact.css">
 
     <title>Portefolio.</title>
 </head>
@@ -33,7 +33,7 @@
             </ul>
             <h2 class="navH2">Ressources</h2>
             <ul class="sndList">
-                <li><a href="#">Actualités</a></li>
+                <li><a href="actualite.html">Actualités</a></li>
                 <li><a href="stacks.html">Stack</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -49,24 +49,42 @@
     </header>
     
     <main>
-        <div>
+        <section class="introduction">
+            <div class="intro">
+                <h2>Formulaire de contact</h2>
+                <h3>Temporairement indisponible</h3>
+            </div>
+        <!-- <div>
             <section class="introduction">
                 <div class="intro">
                     <h2>Me contacter.</h2>
+                    <h3>N'hésitez pas a me contacter!</h3>
                 </div>
             </section>
-            <section>
+            <section class="form">
+
                 <form action="">
-                    <label for="prenom">Votre prénom :</label>
-                    <input type="text" id="prenom" placeholder="Prenom">
-                    <label for="nom">Votre nom :</label>
-                    <input type="text" id="nom" placeholder="Nom">
-                    <label for="email">Votre mail :</label>
-                    <input type="mail" id="email" placeholder="xyz@gmail.com">
-                    <label for="msg">Laissez un message :</label>
-                    <input type="text" id="msg" placeholder="Entrez votre message ici.">
+                    <div class="log">
+                        <div class="firstname">
+                            <label for="prenom">Votre prénom :</label>
+                            <input type="text" id="prenom" placeholder="Prenom">
+                        </div>
+                        <div class="lastname">
+                            <label for="nom">Votre nom :</label>
+                            <input type="text" id="nom" placeholder="Nom">
+                        </div>
+                        <div class="email">
+                            <label for="email">Votre mail : *</label>
+                            <input type="mail" id="email" placeholder="xyz@gmail.com" required>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <label for="msg">Laissez un message :</label>
+                        <input type="text" id="msg">
+                    </div>
+                    <input type="submit" value="Envoyer" id="submit">
                 </form>
-            </section>
+            </section> -->
         </div>
 
     </main>

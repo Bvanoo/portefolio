@@ -3,40 +3,44 @@ body{
 }
 p{
     margin-top: 150px;
-    width: 50%;
+    width: 40%;
     text-align: justify;
 }
 
+main{
+    /* margin-left: 7vw; */
+}
+
 .w3SchoolLogo{
-    position: absolute;
-    top: 600px;
-    right: 130px;
+    position: relative;
+    top: -50px;
+    right: -200px;
     width: 150px;
     height: 150px;
 }
 
 .openClassLogo{
-    position: absolute;
-    top: 400px;
-    right: 60px;
+    position: relative;
+    top: -300px;
+    right: -420px;
     width: 300px;
     height: 135px;
     /* transform: rotate(-15deg); */
 }
 
 .codecLogo{
-    position: absolute;
-    top: 600px;
-    right: 350px;
+    position: relative;
+    top: -50px;
+    right: -400px;
     width: 370px;
     height: 110px;
 }
 
 .if3nLogo{
-    position: absolute;
+    position: relative;
     transform: rotate(3deg);
-    top: 400px;
-    right: 350px;
+    top: -300px;
+    right: -750px;
     width: 350px;
     height: 150px;
 }
@@ -44,6 +48,10 @@ p{
 .formation{
     font-size: 1.2rem;
     position: relative;
-    top: -380px;
-    right: -800px;
+    top: -400px;
+    left: 900px;
+}
+.logo{
+    width: 80vw;
+    margin-left: -2vw;   
 }
