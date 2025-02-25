@@ -13,11 +13,14 @@ if (myMonth>= month && myDay>day){
 }else{
     age = year-myYear;
 }
-profilP.innerHTML = `J'ai ${age} ans, je vis à ${ville}. Je suis passionné par le développement web depuis un moment déjà. J'adore le fait que ce domaine soit en constante évolution, il y a toujours de nouvelles choses à apprendre et de nouveaux défis à relever. <br><br>
+profilP.innerHTML = `J'ai ${age} ans et je vis à ${ville}. Depuis un moment déjà, je suis passionné par le développement web. Ce qui me plaît dans ce domaine, c'est qu'il est en constante évolution : il y a toujours quelque chose de nouveau à apprendre, de nouveaux défis à relever, et ça rend les choses vraiment stimulantes.<br><br>
 
-Je suis quelqu'un de proactif, j'aime trouver des solutions et je suis toujours prêt à me lancer dans de nouveaux projets. J'ai un esprit logique et j'aime résoudre des problèmes, un peu comme dans les jeux vidéo auxquels j'ai beaucoup joué.  Ils m'ont appris à être stratégique, à anticiper et à prendre des décisions rapidement.<br><br>
+J'aime particulièrement le fait que le développement web ne soit jamais figé. Chaque nouvelle technologie, chaque mise à jour apporte son lot de découvertes et d'innovations. Et c'est justement ça qui me motive : pouvoir apprendre en continu, expérimenter et progresser sans cesse.<br><br>
 
-En ce moment, je me forme pour pouvoir suivre une formation qualifiante en développement web.  Je suis vraiment motivé et je travaille dur pour acquérir les bases nécessaires et être prêt pour la suite.<br><br>
+De nature proactive, j'aime chercher des solutions et me creuser la tête pour résoudre des problèmes. Ayant beaucoup joué aux jeux vidéo, j'ai développé un esprit logique et stratégique, ce qui me sert énormément dans le code : anticiper les erreurs, structurer mes idées et prendre des décisions rapidement.<br><br>
 
-Je suis convaincu que cette formation est une opportunité incroyable pour moi de développer mes compétences et de me lancer dans le monde du développement web. J'ai hâte de commencer, de rencontrer d'autres passionnés et d'apprendre ensemble.`;
+Actuellement, je me forme en autodidacte et je suis également une formation pour me préparer aux formations qualifiantes en développement web. Je suis motivé et investi pour acquérir de bonnes bases et être prêt à franchir cette nouvelle étape.<br><br>
+
+Je suis convaincu que cette formation est une opportunité incroyable pour développer mes compétences, rencontrer d'autres passionnés et apprendre ensemble. J'ai hâte de commencer cette aventure et de me lancer pleinement dans ce métier qui me passionne.
+`;
 
