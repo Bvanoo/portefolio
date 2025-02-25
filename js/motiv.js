@@ -6,12 +6,10 @@ const day = new Date().getDate();
 const myYear = 1996;
 const myMonth = 7;
 const myDay = 24;
-let age = 0;
+let age = year - myYear;
 let ville = "Leuze (5310)"
-if (myMonth>= month && myDay>day){
-    age = year-myYear-1;
-}else{
-    age = year-myYear;
+if (month < myMonth || (month === myMonth && day < myDay)) {
+    age--;
 }
 profilP.innerHTML = `J'ai ${age} ans et je vis à ${ville}. Depuis un moment déjà, je suis passionné par le développement web. Ce qui me plaît dans ce domaine, c'est qu'il est en constante évolution : il y a toujours quelque chose de nouveau à apprendre, de nouveaux défis à relever, et ça rend les choses vraiment stimulantes.<br><br>
 
