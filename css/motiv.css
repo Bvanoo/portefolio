@@ -1,5 +1,5 @@
 body{
-    overflow-x: hidden;
+    overflow: hidden;
 }
 p{
     margin-top: 150px;
@@ -7,9 +7,7 @@ p{
     text-align: justify;
 }
 
-main{
-    /* margin-left: 7vw; */
-}
+
 
 .w3SchoolLogo{
     position: relative;
